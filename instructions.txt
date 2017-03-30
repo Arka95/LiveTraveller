@@ -1,6 +1,5 @@
-echo "# LiveTraveller" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/Arka95/LiveTraveller.git
-git push -u origin master
+The server folder contains the js file which is the signalling server for our app. 
+make sure to change the url in the server.js to your machine's dynamic url (ipconfig)
+the app is using 000webhost's server. the link details are in the AppConfig class in the app's src folder
+for the time being, it uses peer to peer connection for video streaming, since we dont have a relay server.
+More modifications to be made very soon
