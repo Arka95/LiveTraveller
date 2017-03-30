@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="2dp"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/friendsList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingTop="10dp" />
+
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="You are a loner, Aren't you?"
+        android:textAppearance="?android:textAppearanceMedium" />
+</LinearLayout> 

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/splash">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <EditText
+                android:id="@+id/etUid"
+                style="@style/Forms2"
+                android:hint="@string/prompt_uid" />
+
+            <EditText
+                android:id="@+id/etEmail"
+                style="@style/Forms2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_email" />
+
+            <EditText
+                android:id="@+id/etFname"
+                style="@style/Forms2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_fname" />
+
+            <EditText
+                android:id="@+id/etLname"
+                style="@style/Forms2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_lname" />
+
+            <EditText
+                android:id="@+id/etPassword"
+                style="@style/Forms2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_password"
+                android:inputType="textPassword"
+                android:maxLines="1" />
+
+            <EditText
+                android:id="@+id/etCpassword"
+                style="@style/Forms2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_cpassword"
+                android:inputType="textPassword"
+                android:maxLines="1" />
+
+
+            <EditText
+                android:id="@+id/etDob"
+                style="@style/Forms2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/prompt_dob"
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/etCountry"
+                style="@style/Forms2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_country" />
+
+            <EditText
+                android:id="@+id/etState"
+                style="@style/Forms2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_state" />
+
+            <EditText
+                android:id="@+id/etCity"
+                style="@style/Forms2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_city" />
+
+            <Button
+                android:id="@+id/submit"
+                style="@style/Buts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Sign Up!" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LomoGreen"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
+
+        <TextView
+
+            android:id="@+id/notiDescp"
+            style="@style/LomoGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+
+            android:text="Arka Bhowmik sent you a friend request" />
+
+        <TextView
+            android:id="@+id/notiTime"
+            style="@style/MoloGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/notiDescp"
+            android:layout_marginTop="1dp"
+            android:text="At: 19/12/2016" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/notiDel"
+        style="@style/Buts"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ic_cancel"
+        android:background="#ffffff" />
+
+</RelativeLayout>

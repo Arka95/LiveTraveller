@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/splash"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="LiveTraveller"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <EditText
+            android:id="@+id/email"
+            android:hint="@string/hint_email"
+            android:inputType="textEmailAddress"
+            style="@style/Forms2"
+          />
+
+        <EditText
+            android:id="@+id/password"
+            style="@style/Forms2"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword"
+
+             />
+
+        <!-- Login Button -->
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/btn_login_bg"
+            android:text="@string/btn_login"
+            android:textColor="@color/colorPrimary" />
+
+        <!-- Link to Login Screen -->
+
+        <Button
+            android:id="@+id/btnLinkToRegisterScreen"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/btn_link_to_register"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+</LinearLayout>

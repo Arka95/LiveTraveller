@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LomoGreen"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/ImgButProPic"
+        style="@style/Buts"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ic_dp"
+        android:background="#00ffffff" />
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ImgButProPic"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/LomoGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+
+            android:text="Arka Bhowmik" />
+
+        <TextView
+            android:id="@+id/location"
+            style="@style/MoloGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:layout_marginTop="3dp"
+            android:text="Location:" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/ImgButIsOnline"
+        style="@style/Buts"
+        android:background="#ffffff"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ic_isonline" />
+
+</RelativeLayout>
