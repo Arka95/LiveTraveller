@@ -1,5 +1,19 @@
+This app uses WebRTC to broadcast videos. For now, its using peer to peer connections. The server.js has to be run from the command line using the command
+node server.js
+For this, node.js has to installed in your PC.
+if you wish to view the app , without the broadcast feature, you dont need anything else
+
+
+
 The server folder contains the js file which is the signalling server for our app. 
 make sure to change the url in the server.js to your machine's dynamic url (ipconfig)
 the app is using 000webhost's server. the link details are in the AppConfig class in the app's src folder
 for the time being, it uses peer to peer connection for video streaming, since we dont have a relay server.
-More modifications to be made very soon
+More modifications to be made very soon.
+
+
+As for the app:
+To run it , you must go to the phone settings-> Applications -> Livetraveller and allow the permissions for the app
+Since the app does not have the permission selectio frature for Android Marshmallow .
+To login, you can create your account or use one of the ddefault passwords:
+User: arka95,password: 1234
