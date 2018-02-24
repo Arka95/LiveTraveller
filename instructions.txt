@@ -3,7 +3,10 @@ node server.js
 For this, node.js has to installed in your PC.
 if you wish to view the app , without the broadcast feature, you dont need anything else
 
-If you want to set up the server offline also, you can run the livetraveller_sqL_dump file in your native phpmyadmin server (after installing wamp) to get the database . However, then you will have to make changes accordingly in the AppConfig.java file of the app's src folder, which contains the links to the urls to fetch the data from.
+If you want to set up the server offline also, you can run the livetraveller_sqL_dump file
+in your native phpmyadmin server (after installing wamp) to get the database .
+However, then you will have to make changes accordingly in the AppConfig.java file of the 
+app's src folder, which contains the links to the urls to fetch the data from.
 
 
 The server folder contains the js file which is the signalling server for our app. 
